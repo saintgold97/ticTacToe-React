@@ -1,0 +1,43 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.player_indicator {
+    text-align: center;
+    margin-top: 20px;
+    color: cadetblue;
+}
+
+.board {
+    display: grid;
+    position: relative;
+    z-index: 99;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+    height: 500px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    transition: z-index 1s ease, height 1s ease;
+}
+
+.board_tile {
+    border: 1px solid  rgb(39, 43, 51);
+}
+
+.remove-left-border {
+    border-left: 1px solid transparent;
+}
+
+.remove-right-border {
+    border-right: 1px solid transparent;
+}
+
+.remove-top-border {
+    border-top: 1px solid transparent;
+}
+
+.remove-bottom-border {
+    border-bottom: 1px solid transparent;
+}
